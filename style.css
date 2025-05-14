@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.welcome-page-div {
+  opacity: 0; /* hidden at first */
+  text-align: center;
+  font-family: 'Beautiful ES', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
 h3{
   color: black;
 }

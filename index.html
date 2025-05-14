@@ -5,10 +5,10 @@
   <title>UXR Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
 
-<script src="https://cdn.jsdelivr.net/gh/jrquick17/jquery-delay-text/delay-text.js"></script>
   <div class="parallax-window" data-parallax="scroll">
     <div class="welcome-page-div">
       <h3>Welcome</h3>
@@ -17,11 +17,15 @@
     <div class="welcome-page-div">
       <h3>to my UXR Journey</h3>
     </div>
-
-    <section id="section5" class="demo">
-      <a href="#section5"><span></span>Scroll</a>
-    </section>
   </div>  
+
+  <script>
+    $(document).ready(function(){
+      $('.welcome-page-div').each(function(i){
+        $(this).delay(500 * i).fadeTo(1000, 1);
+      });
+    });
+  </script>
 
   <div class="page-title">
     <h1>Hello, welcome to my UXR Journey!</h1>
