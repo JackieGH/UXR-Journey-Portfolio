@@ -6,7 +6,7 @@
 
 .welcome-page-div {
   opacity: 0; /* hidden at first */
-  text-align: center;
+  text-align: left;
   font-family: 'Beautiful ES', sans-serif;
   font-size: 30px;
   font-weight: lighter;
