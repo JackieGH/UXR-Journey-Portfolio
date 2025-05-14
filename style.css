@@ -40,7 +40,9 @@
   animation-delay: 1s;
 }
 
-
+h3{
+  color: black;
+}
 /*WindowOnload Fade-In*/
 
 
@@ -52,10 +54,6 @@ body, html {
 }
 
 h1{
-  color: black;
-}
-
-h3{
   color: black;
 }
 
