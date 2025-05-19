@@ -5,11 +5,22 @@
 }
 
 .welcome-page-div {
+  display: flex;
+  flex-direction: row; /* image left, text right on desktop */
+  align-items: left;
+  gap: 16 px;
   opacity: 0; /* hidden at first */
   text-align: left;
   font-family: 'Beautiful ES', sans-serif;
   font-size: 30px;
   font-weight: lighter;
+  flex-wrap: wrap;
+}
+
+.welcome-page-div img {
+  height: auto;
+  max-width: 100%;
+  flex-shrink: 0; /* prevent img from shrinking */
 }
 
 body, html {
@@ -62,4 +73,12 @@ button:hover {
 .nav-buttons {
   position: sticky;
   top: 0;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .welcome-page-div {
+    flex-direction: column;
+    text-align: center;
+  }
 }
