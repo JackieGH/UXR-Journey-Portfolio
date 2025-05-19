@@ -14,25 +14,32 @@
     <button type="button">Contact</button>
   </div>
 
+  <!-- Main Content -->
   <div class="parallax-window" data-parallax="scroll">
     <div class="container">
       <div class="welcome-page-div">
-        <img src="images/headshot1.png" class="landing-img" alt="Headhsot of Jackie">
-      
+        <!-- Headshot Image -->
+        <img src="images/headshot1.png" class="landing-img" alt="Headshot of Jackie">
+
+        <!-- Text Content (each in its own div for fade-in) -->
         <div class="text-block">
-          <h1>Hi!</h1>
-          <h1>I'm Jackie</h1> 
-          <h1>And this is my UXR journey...</h1>
+          <div class="line fade-line"><h1>Hi!</h1></div>
+          <div class="line fade-line"><h1>My name is <span class="logo-name">Jackie</span></h1></div>
+          <div class="line fade-line"><h1>And I’m a UX Researcher</h1></div>
+          <div class="line fade-in">
+          <!-- Logo -->
+            <img src="images/logo_version1.svg" class="logo-img" alt="logo">
+          </div>
         </div>
-        <img src="images/logo_version1.svg"  class="logo-img" height="60" alt="logo">
       </div>
-    </div>  
+    </div>
   </div>
 
   <!-- jQuery function that makes text have a delayed effect */ -->
+  <!-- jQuery Fade-In -->
   <script>
-    $(document).ready(function(){
-      $('.welcome-page-div').each(function(i){
+    $(document).ready(function () {
+      $('.fade-line').each(function (i) {
         $(this).delay(500 * i).fadeTo(1000, 1);
       });
     });
