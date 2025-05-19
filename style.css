@@ -20,7 +20,7 @@
 .welcome-page-div img {
   max-width: 200px;
   height: 200px;
-  flex-shrink: auto;
+  flex-shrink: 1;
 }
 
 .logo-img {
