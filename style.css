@@ -17,10 +17,10 @@
   flex-wrap: wrap;
 }
 
-.welcome-page-div img {
+.landing-img {
   max-width: 200px;
   height: 200px;
-  flex-shrink: 1;
+  flex-shrink: auto;
 }
 
 .logo-img {
