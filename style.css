@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row; /* image left, text right on desktop */
   align-items: left;
-  gap: 16 px;
+  gap: 24px;
   opacity: 0; /* hidden at first */
   text-align: left;
   font-family: 'Beautiful ES', sans-serif;
