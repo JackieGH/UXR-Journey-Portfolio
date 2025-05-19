@@ -53,6 +53,7 @@ button {
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s ease;
+  vertical-align: top;
 }
 
 button:hover {
