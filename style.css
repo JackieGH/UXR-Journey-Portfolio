@@ -45,8 +45,7 @@
 /* HEADSHOT IMAGE */
 .landing-img {
   max-width: 300px;
-  height: auto;
-  border-radius: 50%;
+  height: 300px;
 }
 
 body, html {
