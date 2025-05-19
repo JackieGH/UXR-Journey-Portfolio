@@ -1,4 +1,6 @@
 
+
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,8 +38,7 @@
 .fade-line h1 {
   font-size: 2.5rem;
   color: black;
-  font-weight: bold;
-  line-height: 1.2;
+  line-height: 0.8;
   margin: 0.2em 0;
 }
 
@@ -55,24 +56,11 @@ body, html {
   color: white;
 }
 
-.scene {
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.overlay {
-  background: rgba(0, 0, 0, 0.6); /* semi-transparent overlay */
-  padding: 2rem;
-  border-radius: 20px;
-  max-width: 600px;
-  text-align: center;
-  backdrop-filter: blur(5px);
-  transition: transform 0.3s ease;
+/* NAV BUTTONS */
+.nav-buttons {
+  position: sticky;
+  top: 24px;
+  right: 24px;
 }
 
 button {
@@ -91,10 +79,25 @@ button:hover {
   transform: scale(1.1);
 }
 
-.nav-buttons {
-  position: sticky;
-  top: 20px;
-  right: 20px;
+/* PROJECT MILESTONES */
+.scene {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent overlay */
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 600px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease;
 }
 
 /* RESPONSIVENESS */
