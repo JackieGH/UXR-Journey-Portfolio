@@ -18,8 +18,8 @@
 }
 
 .landing-img {
-  max-width: 250px;
-  height: 250px;
+  max-width: 300px;
+  height: 300px;
   flex-shrink: auto;
 }
 
