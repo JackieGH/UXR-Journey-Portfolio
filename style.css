@@ -18,8 +18,8 @@
 }
 
 .welcome-page-div img {
-  height: 50%;
-  max-width: 50%;
+  max-width: 120px;
+  height: auto;
 }
 
 body, html {
