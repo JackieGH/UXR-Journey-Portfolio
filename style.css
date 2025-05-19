@@ -1,20 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .welcome-page-div {
   display: flex;
   flex-direction: row; /* image left, text right on desktop */
-  align-content: left;
-  gap: 24px;
+  align-items: left;
+  gap: 32px;
   opacity: 0; /* hidden at first */
-  text-align: left;
-  font-family: 'Beautiful ES', sans-serif;
-  font-size: 30px;
-  font-weight: lighter;
   flex-wrap: wrap;
+}
+
+.text-block h1 {
+  font-family: 'Beautiful ES', sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  line-height: 1.3;
+  font-weight: bold;
 }
 
 .landing-img {
