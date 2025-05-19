@@ -73,6 +73,6 @@ button:hover {
 @media (max-width: 768px) {
   .welcome-page-div {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 }
