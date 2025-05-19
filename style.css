@@ -7,7 +7,7 @@
 .welcome-page-div {
   display: flex;
   flex-direction: row; /* image left, text right on desktop */
-  align-items: flex-end;
+  justify-content: flex-end;
   gap: 24px;
   opacity: 0; /* hidden at first */
   text-align: left;
